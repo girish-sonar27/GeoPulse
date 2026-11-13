@@ -6,7 +6,8 @@ from datetime import datetime
 data_path = Path(input("Enter GeoLife Data folder path: ").strip().strip('"'))
 
 # Output CSV
-output_file = Path("geolife_gps_data.csv")
+output_file = Path("geolife_gps_data_v2.csv")
+
 
 columns = [
     "Device_ID",
