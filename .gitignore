@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# GeoLife GPS datasets
+/Geolife Trajectories 1.3/
+/Geolife Trajectories 1.3.zip
+/geolife_gps_data*.csv
+/geolife_gps_cleaned.csv
+
+# Generated data
+/data/
+/output/
