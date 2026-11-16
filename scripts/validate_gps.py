@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = "geolife_gps_data_v2.csv"
+file_path = "geolife_gps_cleaned.csv"
 
 print("Reading GPS dataset...")
 
