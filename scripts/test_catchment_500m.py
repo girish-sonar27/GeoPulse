@@ -13,4 +13,4 @@ for store_id, name, lat, lon in stores:
     lat_rad = math.radians(lat)
     d_lat = math.degrees(radius_m / earth_radius_m)
     d_lon = math.degrees(radius_m / (earth_radius_m * math.cos(lat_rad)))
-    print(f"{store_id} ({name}): lat~={lat:.4f} (+-{d_lat:.5f} deg), lon~={lon:.4f} (+-{d_lon:.5f} deg) for {radius_m}m")
+    print(f"{store_id} ({name}): lat={lat:.4f} (+-{d_lat:.5f} deg), lon={lon:.4f} (+-{d_lon:.5f} deg) for {radius_m}m")
